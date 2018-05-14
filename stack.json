@@ -157,7 +157,7 @@
         "ContainerDefinitions": [
           {
             "Name": "jenkins",
-            "Image": "abeego/jenkins-ecs",
+            "Image": "abeego/jenkins:ecs",
             "Memory": 995,
             "PortMappings": [{ "ContainerPort": 8080, "HostPort": 8080 }],
             "MountPoints": [
